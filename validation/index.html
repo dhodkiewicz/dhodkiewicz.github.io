@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Dalton Hodkiewicz Final - Fall 2018</title>
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <div class="js">Please Enable JavaScript!</div>
+    <div class="wrapper">
+      <header>
+          <h1>Documentation</h1>
+      </header>
+      <nav>
+          <ul>
+            <li><a href="../index.html">Documentation</a></li>
+            <li><a href="../fittext/index.html">FitText</a></li>
+            <li><a href="../lettering/index.html">Lettering</a></li>
+            <li><a href="../canvas/index.html">Canvas</a></li>
+            <li><a href="../datedropper/index.html">DateDropper</a></li>
+            <li><a href="../tabs/index.html">Tabs</a></li>
+            <li><a href="../json/index.html">JSON</a></li>
+            <li><a href="../ajax/index.html">AJAX</a></li>
+            <li><a href="..map/index.html">Map</a></li>
+          </ul>
+      </nav>
+      <main>
+        <h2>Validation</h2>
+        <div id ="myform">
+     <form novalidate action="//example.com" method="post" id="form">
+        <fieldset id="input">
+            <legend>Login Form</legend>
+            <p>
+                <label for="username">Username</label>
+                <input id="username" type="text" name="username" placeholder="Enter desired username">
+            </p>
+            <p>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Enter your password">
+            </p>
+            <p>
+                <label for="password_confirm">Confirm Password</label>
+                <input type="password" name="password_confirm" id="password_confirm" data-rule-equalTo="#password" required placeholder="Enter your password again">
+            </p>
+            <p>
+                <label for="cemail">Email (required)</label>
+                <input type="email" name="email" id="cemail"  data-rule-email="true" placeholder="Enter your email">
+            </p>
+        </fieldset>
+<!-- Selects -->
+    	<fieldset id="col">
+    		<legend>Select your favorite color & music genre</legend>
+    		<p>
+    			<label for="Select a Color!"</label>
+    				<select id ="color" name ="color" title="Select a color">
+    					<option value="">Choose a Color</option>
+    					<option value="blue">Blue</option>
+    					<option value="yellow">Yellow</option>
+    					<option value="green">Green</option>
+    					<option value="red">Red</option>
+    					<option value="vegas">Vegas</option>
+    					<option value="orleans">New Orleans</option>
+    				</select>
+    			</p>
+          <p>
+            <label for="Select a Favorite Music Genre!"</label>
+              <select id ="music" name ="music" title="Select Music Type">
+                <option value="">Select Favorite Music Genre</option>
+                <option value="jazz">Jazz</option>
+                <option value="rock">Rock & Roll</option>
+                <option value="country">Country</option>
+                <option value="r&b">R&B</option>
+                <option value="metal">metal</option>
+                <option value="classical">Classical</option>
+              </select>
+            </p>
+    		</fieldset>
+<!-- select End
+Radio start -->
+    	<fieldset id="col">
+        <div id="radio">
+    		<legend>Select your favorite</legend>
+    		<p id ="car">
+    			<label for="Select brand"</label>
+    					<input type="radio" name="car" value="chevy">Chevy<br>
+    					<input type="radio" name="car" value="ford">Ford<br>
+    					<input type="radio" name="car" value="dodge">Dodge
+    			</p>
+          <p id ="food">
+            <label for="Select food"</label>
+                <input type="radio" name="food" value="pizza">Pizza<br>
+                <input type="radio" name="food" value="ice cream">Ice cream<br>
+                <input type="radio" name="food" value="candy"> Candy
+            </p>
+          </div>
+    		</fieldset>
+<!--radio End
+and checkbox start -->
+    		<fieldset id="col">
+    			<legend>Select Favorite Movie Genres</legend>
+    		<p id="check">
+    				<input type="checkbox" class="checkbox" id="horror" value="horror" name="genres[]">
+    				<label for="horror">Horror</label>
+
+    				<input type="checkbox" class="checkbox" id="comedy" value="comedy" name="genres[]">
+    				<label for="comedy">Comedy</label>
+
+    				<input type="checkbox" class="checkbox" id="romance" value="romance" name="genres[]">
+    				<label for="romance">Romance</label>
+
+    				<input type="checkbox" class="checkbox" id="adventure" value="adventure" name="genres[]">
+    				<label for="adventure">Adventure</label>
+
+    				<input type="checkbox" class="checkbox" id="action" value="action" name="genres[]">
+    				<label for="action">Action</label>
+
+    				<input type="checkbox" class="checkbox" id="documentary" value="documentary" name="genres[]">
+    				<label for="documentary">Documentary</label>
+    		</p>
+    </fieldset>
+<!--checkbox end
+and comments start -->
+    <fieldset id="col">
+    	<legend>Additional Comments</legend>
+    		<p id="comments">
+    			<label for="comment"></label>
+    				<input type="text" class="textarea" id="comment" name="comment" placeholder="How was your experience with the form?">
+    		</p>
+    </fieldset>
+<!-- end of Comments
+and below is the button-->
+<p id="submit">
+  <label for="submit">Click to Submit</label>
+  <input class ="submit" type ="submit" value ="Click Me!"
+</p>
+    </form>
+    </div>
+      </main>
+      <footer>
+  			    <p>
+  				   <a href="../../index.html">Copyright &copy;2018 Dalton Hodkiewicz</a>
+  				   <a href="https://jigsaw.w3.org/css-validator/check/referer/?">W3C CSS</a>
+  				   <a href="https://validator.w3.org/check?uri=referer">W3C HTML</a>
+  			    </p>
+  		</footer>
+    </div>
+    <!-- Load jQuery from a CDN -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Load jQuery from a local copy if loading from CDN fails -->
+	<script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="../assets/jquery-3.3.1.min.js"><\/script>')</script>
+  <!-- Load jQuery Validate Plugin from a CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+<!-- Load jQuery Validate Plugin from a local copy if loading from CDN fails -->
+<script type="text/javascript">
+  if(window.jQuery) {
+      window.jQuery.fn.validate || document.write('<script type="text/javascript" src="../assets/jquery-validate-min.js"><\/script>')
+  }
+</script>
+  <script src="../js/index.js"></script>
+  <script src="../js/validation.js"></script>
+  </body>
+</html>

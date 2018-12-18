@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "inventor": "Nikola Tesla",
+      "born": "July 10, 1856",
+      "location": "Smiljan, Croatia",
+      "logo": "../img/tesla.jpg"
+    },
+    {
+      "inventor": "Elon Musk",
+      "born": "June 28, 1971",
+      "location": "Pretoria, South Africa",
+      "logo": "../img/musk.jpg"
+    },
+    {
+      "inventor": "Leonardo Davinci",
+      "born": "April 15, 1452",
+      "location": "Anchiano, Italy",
+      "logo": "../img/vinci.jpg"
+    }
+  ]
+}
