@@ -1,5 +1,0 @@
-$(function() {
-
-$('input').dateDropper();
-
-});
