@@ -1,0 +1,255 @@
+@import url(https://fonts.googleapis.com/css?family=Eczar|Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Assistant|Poiret+One);
+
+html,
+body {
+  background: url("../img/cityscape.jpg") repeat 0 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Assistant', sans-serif;
+}
+h1{
+  font-family: 'Poiret One', cursive;
+  color: #200309;
+  margin: 0;
+  text-align: center;
+  font-size: 4em;
+}
+
+h1:hover{
+  color: rgb(30, 213, 7);
+  text-shadow:5px 5px rgba(74, 246, 46, 0.38);
+}
+
+h3{
+  font-family: 'Eczar', serif;
+  padding-top: 20px;
+}
+
+.dark{
+  color: rgba(#321c0a, 0.96);
+  text-align: center;
+  margin: 0 auto;
+  font-size: 2em;
+}
+
+.js{display: none;}
+
+.no-js .js {
+display: block;
+text-align: center;
+background-color: rgb(0, 0, 0);
+color: red;
+font-size: 2em;
+padding: 10px;}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+#header {
+   padding:10px;
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;
+   height: 100%;  /* Height of the footer */
+}
+main{
+  height: 70%;
+  width: 90%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+
+/**********  ACCORDION **********/
+.accordion, .menu {
+  background-color: #200309;
+  color: #666;
+  margin: 0;
+  padding: 0;
+  overflow: auto;}
+
+.accordion li,
+.menu li {
+  padding: 0;
+  list-style-type: none;}
+
+.accordion-control {
+  background-color: #303030;
+  color: #fff;
+  display: block;
+  width: 100%;
+  padding: 1em 1em .5em 1em;
+  margin: 0;
+  border-top: 1px solid #666;
+  outline: none;
+}
+
+.accordion-control:hover{
+  background-color: #3cdf3a;
+  color: #5f0779;
+}
+
+.accordion-panel {
+  display: none;}
+
+.accordion-panel p {
+  margin: 20px;
+  font-size: 1.5em;}
+
+.accordion-panel img {
+  display: block;
+  clear: left;}
+
+  ol{
+    margin-left: 45%;
+    padding-bottom: 25px;
+  }
+
+  .ulx{
+    text-align:center;
+    font-size: 1.25em;
+  }
+
+  /*************ACCORDION END ***********/
+
+.info h3{
+  text-align: center;
+}
+.info{
+  width: 60%;
+  height: 90%;
+  padding: 20px;
+  margin-left: 20%;
+  background-color: rgb(128, 36, 17);
+}
+
+.about li{
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   text-align: center;
+   width:100%;
+   height:60px;   /* Height of the footer */
+}
+
+#footer a{
+  text-decoration: none;
+  color: rgb(96, 205, 68);
+  font-family: sans-serif;
+  font-size: 1.2em;
+  padding-left: 5px;
+}
+
+#footer a:hover{
+  text-decoration: none;
+  color: rgb(154, 3, 207);
+  font-family: sans-serif;
+}
+
+.date{
+  color: rgb(96, 205, 68);
+  font-family: sans-serif;
+  font-size: 1.2em;
+}
+
+/*******NAVBAR********/
+
+.sidebar{
+  position: relative;
+  float: left;
+  width: 100px;
+  height: 75%;
+  background: rgb(96, 205, 68);
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.sidebar ul{
+  margin: 0;
+  padding: 0;
+}
+.sidebar ul li a{
+  text-decoration: none;
+  color: white;
+  height: 60px;
+  width: 100%;
+  font-size: 40px;
+  line-height: 80px;
+  text-align: center;
+  display: block;
+  padding: 25px 0;
+  border-radius: 20px;
+  trasnsition: 0.6s all;
+}
+
+.sidebar ul li a:hover{
+  background: rgb(111, 17, 185);
+}
+
+.btn{
+  float: left;
+  padding: 0 10px;
+  font-size: 40px;
+  text-decoration: none;
+  color: rgb(96, 205, 68);
+  font-family: Ionicons;
+  cursor: pointer;
+}
+.clear{
+  clear: left;
+}
+/******NAVBAR END******/
+
+.btn ion-icon{
+  color: red;
+}
+
+
+ion-icon {
+  font-size: 32px;
+  color: white;
+}
+
+ion-icon:hover{
+  color: rgb(237, 249, 7);
+}
+
+ul{
+  list-style:none;
+  margin: 0 auto;
+}
+
+/* Small screen:mobile */
+@media only screen and (max-width: 500px) {
+  body {
+      background-color: #403c3b;
+  }
+  #page {
+    max-width: 480px;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+  #page {
+    max-width: 480px;margin: 20px auto 20px auto;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  #page {
+    max-width: 480px;margin: 20px auto 20px auto;
+    }
+}
+/* Larger screens act like a demo for the app */
+@media only screen and (min-width: 960px) {
+  #page {
+    max-width: 480px;margin: 20px auto 20px auto;
+    }
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+}
