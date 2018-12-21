@@ -24,7 +24,7 @@ h1:hover{
 }
 
 h3{
-  font-family: 'Eczar', serif;
+  font-family: 'Poiret One', cursive;
   padding-top: 20px;
 }
 
@@ -32,7 +32,7 @@ h3{
   color: rgba(#321c0a, 0.96);
   text-align: center;
   margin: 0 auto;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .js{display: none;}
@@ -219,6 +219,8 @@ ion-icon {
 
 ion-icon:hover{
   color: rgb(237, 249, 7);
+  transform: rotate(360deg); /* Equal to rotateZ(45deg) */
+  transition-duration: 1s;
 }
 
 ul{
