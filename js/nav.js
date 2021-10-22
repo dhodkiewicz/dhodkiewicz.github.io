@@ -48,7 +48,7 @@ $btn.on('click', function() {
 var $resume = $('.resume');
 $resume.on('click', function() {
     if (confirm ('Do you wish to download Dalton\'s Resume?')) {
-        location.href = 'assets/dalton_hodkiewicz_resume.docx';
+        location.href = 'assets/Resume_Web.docx';
     }
 
     return false;
